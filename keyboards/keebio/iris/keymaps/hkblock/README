@@ -1,3 +1,4 @@
 qmk compile -kb keebio/iris/rev6 -km hkblock
 qmk c2json -km hkblock -kb keebio/iris/rev6 -o keymap.json keymap.c 
 https://config.qmk.fm/
+Remove the JSON before re-compiling (or use the JSON instead of C)
